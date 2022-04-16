@@ -1,0 +1,328 @@
+* {
+  margin: 0px auto;
+}
+header {
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 7%);
+  width: 100%; 
+  z-index: 1000;
+  position: fixed;
+}
+.tentang-tokped,
+.mitra-tokped,
+.mulai-jual,
+.promo,
+.tokped-care,
+.kategori {
+  font-size: 12px;
+  font-family: "open sans", "tahoma", sans-serif;
+  color: rgba(49, 53, 59, 0.68);
+  margin: 0px 0px 0px 28px;
+  text-decoration: none;
+}
+.up-header {
+  height: 32px;
+  padding: 0px 32px;
+  padding-top: 2px;
+  background-color: #f3f4f5;
+}
+.icon-phone {
+  height: 15px;
+  width: 15px;
+  background-size: 100% auto;
+}
+.link-direct-app-tokped {
+  font-size: 12px;
+  font-family: "open sans", "tahoma", sans-serif;
+  color: rgba(49, 53, 59, 0.68);
+  margin: 0px 0px 0px 4px;
+  text-decoration: none;
+}
+
+.link-direct-app-tokped:hover {
+  color: #03ac03;
+  text-decoration: none;
+}
+.tentang-tokped:hover,
+.mitra-tokped:hover,
+.mulai-jual:hover,
+.promo:hover,
+.tokped-care:hover,
+.kategori:hover {
+  color: #03ac03;
+  text-decoration: none;
+}
+.up-header2 {
+  padding: 10px 32px;
+  height: 56px;
+  top: 30px;
+}
+.search-menu {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.search {
+  width: 100%;
+  border: 2px solid rgba(49, 53, 59, 0.103);
+  border-right: none;
+  padding: 7px;
+  height: 28px;
+  border-radius: 7px 0 0 7px;
+  outline: none;
+  color: rgba(41, 41, 41, 0.466);
+  font-size: 11px;
+}
+
+.search:focus {
+  border-color: #03ac03;
+}
+.button-search {
+  width: 30px;
+  height: 28px;
+  border: 2px solid rgba(49, 53, 59, 0.103);
+  background: rgba(49,53,59,0.12);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 7px 7px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.line-vertikal {
+  border-left: 2px solid #0000008a;
+  height: 100%;
+  margin-right: 15px;
+}
+.masuk {
+  width: 47%;
+  height: 32px;
+  padding: 0px 16px;
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 12px;
+  background: white;
+  color: rgb(3, 172, 14);
+  cursor: pointer;
+  border: 1px solid rgb(3, 172, 14);
+  margin-right: 15px;
+}
+.daftar {
+  margin-right: 10px;
+  width: 47%;
+  height: 32px;
+  color: white;
+  padding: 0px 16px;
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 12px;
+  background: rgb(3, 172, 14);
+  cursor: pointer;
+  border: none;
+}
+.nav1,
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6 {
+  font-size: 12px;
+  font-family: "open sans", "tahoma", sans-serif;
+  color: rgba(49, 53, 59, 0.68);
+  margin: 0px 0px 0px 28px;
+  text-decoration: none;
+}
+.nav1:hover,
+.nav2:hover,
+.nav3:hover,
+.nav4:hover,
+.nav5:hover,
+.nav6:hover {
+  color: #03ac03;
+  text-decoration: none;
+}
+.image-point-map {
+  height: 12px;
+  width: 12px;
+  margin: auto;
+}
+
+main {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px auto 150px;
+  padding-top:140px; 
+}
+.up-header3 {
+  padding: 3px 32px;
+}
+.page-awal{
+  margin: 0px 14%;
+  border-radius: 10px;
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 240px;
+  padding: 0px 0px;
+}
+.carousel-inner {
+  border-radius: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  float: left;
+}
+.menu-kategori {
+  position: relative;
+  display: block;
+  box-shadow: 0 1px 6px 0 rgb(49 53 59 / 12%);
+  background-color: #fff;
+  margin-top: 15px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.kategori-title {
+  font-weight: 600;
+  font-family: "Nunito Sans", -apple-system, sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(49, 53, 59, 0.96);
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 2px 10px;
+  font-size: 20px;
+}
+.produk img {
+  width: 100%;
+  height: 100%;
+  border:solid 1px #e5e7e9;
+  border-radius: 10px;
+}
+.category a {
+  align-items: center;
+  border-radius: 16px;
+  border: solid 1px #e5e7e9;
+  background-color: var(--NN0, #ffffff);
+  cursor: pointer;
+  font-family: "open sans", "tahoma", sans-serif;
+  font-size: 12px;
+  color: rgba(49, 53, 59, 0.68);
+  text-decoration: none;
+  width: 20%;
+  margin: 10px 7px 0px 0px;
+  padding: 6px 8px;
+}
+.category a:hover{
+    text-decoration: none;
+    color: rgba(49, 53, 59, 0.68);
+}
+button.medium-header-fill-grey{
+  width: 60px;
+  height: 32px;
+  padding: 0px 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: 12px;
+  background: #6C727C;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #6C727C;
+  margin: auto;
+}
+.category a img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 4px;
+}
+
+a:hover.medium-header{
+  color: green;
+  text-decoration: none;
+  align-content: center;
+}
+.content{
+  padding: 20px 30px 20px 30px;
+}
+
+div.content{
+  border: 1px;
+  opacity: 2;
+  border-style: ridge;
+  border-radius: 5%;
+  border-color: #8080801a;
+}
+div.content-nav{
+  box-sizing: border-box;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--G500,#03AC0E);
+  text-transform: capitalize;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 300ms cubic-bezier(0.63, 0.01, 0.29, 1) 0s;
+  display: inline-flex;
+  flex: 1 1 auto;
+  text-align: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  padding: 0px 24px;
+}
+div.content-nav:hover{
+  color: #1c1b1b;
+}
+.paket-data{
+  width: 100%;
+  height: 32px;
+  border-radius: 8px;
+  border: solid 1px var(--N75,#E5E7E9);
+  font-size: 11px;
+  color: #4d4d4d;
+  padding: 0 0.5em;
+  cursor: pointer;
+}
+.pulsa{
+  width: 100%;
+  height: 32px;
+  border-radius: 8px;
+  border: solid 1px var(--N75,#E5E7E9);
+  font-size: 11px;
+  padding: 0 0.5em;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+#no-hp{
+  width: 100%;
+  height: 32px;
+  border-radius: 8px;
+  border: solid 1px var(--N75,#E5E7E9);
+  font-size: 11px;
+  padding: 0 0.5em;
+  background-color: #00000000;
+  color: #4d4d4d;
+}
+.paket-data:focus{
+  outline: none !important;
+  border: solid 1px var(--N75,#E5E7E9);
+}
+.pulsa:focus{
+  outline: none !important;
+  border: solid 1px var(--N75,#E5E7E9);
+}
+#no-hp:focus {
+  outline: none !important;
+  border:1px solid #03ac0e;
+}
